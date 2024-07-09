@@ -21,8 +21,6 @@ const getfact = async () => {
     let promis = await fetch(URL);
     let data = await promis.json();
     let err = data.cod;
-    console.log(err);
-    console.log(data);
     if ( err == 404) {
         
         er.style.display = "block";
