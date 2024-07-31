@@ -11,7 +11,7 @@ const getfact = async () => {
     console.log(promis);
     let data = await promis.json();
     console.log(data.name);
-    // fects.innerText = data[3].text;
+    
 }
 
 getdata.addEventListener("click", getfact);
